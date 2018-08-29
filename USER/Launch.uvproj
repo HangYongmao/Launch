@@ -368,7 +368,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\KEY;..\HARDWARE\NRF24L01;..\MALLOC;..\FATFS\exfuns;..\FATFS\src;..\FATFS\src\option;..\TEXT;..\ATKDCR;..\APP;..\USB\CONFIG;..\USB\LIB;..\HARDWARE\IIC;..\HARDWARE\MPU6050;..\HARDWARE\SPI</IncludePath>
+              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\KEY;..\HARDWARE\NRF24L01;..\USB\CONFIG;..\USB\LIB;..\HARDWARE\IIC;..\HARDWARE\MPU6050;..\HARDWARE\SPI</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

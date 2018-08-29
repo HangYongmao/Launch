@@ -37,13 +37,10 @@ void usb_port_set(u8 enable)
 
 int main(void)
 {
-	//	short temp1[3];
 	short temp2[3];
-	//	short temp3;
 	u8 tmp_buf[5];	 //发射寄存器
 	u8 key;
-	u8 i = 0;
-	short X, Y, X1, Y1;		 //发送到电脑端的坐标值
+	short X, Y;		 //发送到电脑端的坐标值
 
 	u8 keysta;
 
@@ -93,6 +90,5 @@ int main(void)
 		
 		NRF24L01_TxPacket(tmp_buf);
 		printf("  %8d %8d\r\n", 0, 0);
-
 	}
 }
